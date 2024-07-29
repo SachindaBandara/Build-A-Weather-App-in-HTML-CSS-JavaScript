@@ -4,12 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"rel="stylesheet">
     <title>Weather Finder</title>
 </head>
-<body>
-    
+    <body class="bg-gradient-to-br from-blue-400 
+             to-purple-600 min-h-screen flex 
+             justify-center items-center">
+    <div class="max-w-md bg-white p-8 rounded-md 
+                shadow-lg w-full h-auto">
+        <h1 class="text-3xl font-semibold mb-6 
+                   text-green-500 text-center">
+          Weather App UI using Tailwind CSS
+          </h1>
+        <form id="weather-form" class="mb-6 relative">
+            <label for="city" 
+                   class="block text-blue-700 
+                          font-medium mb-2">
+              Enter City:
+              </label>
+            <div class="flex items-center">
+                <input type="text" id="city" 
+                       name="city"
+                       class="mt-1 px-4 py-2 block w-64 
+                              h-12 rounded-md border 
+                              border-gray-300 
+                              focus:outline-none 
+                              focus:border-blue-500 
+                              placeholder-gray-500"
+                       placeholder="Enter city name">
+                <button type="submit"
+                        class="ml-1 bg-blue-500 text-white
+                               py-2 px-4 h-12 rounded-md 
+                               hover:bg-blue-600 
+                               focus:outline-none 
+                               focus:bg-blue-600">
+                    Get Weather
+                </button>
+            </div>
+        </form>
+
+        <div id="weather-info" 
+             class="grid grid-cols-2 gap-4">
+        </div>
+    </div>
 </body>
+<script src = "Weather.js"></script>
 </html>
