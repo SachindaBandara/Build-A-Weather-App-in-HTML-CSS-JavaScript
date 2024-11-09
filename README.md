@@ -27,3 +27,6 @@ A sleek and responsive Weather App built using HTML, CSS, and JavaScript that fe
   1. Responsive Design: Works well on both desktop and mobile devices.
   2. Live Weather Data: Fetches up-to-date weather information from a reliable API.
   3. User-Friendly Interface: Easy to navigate and use.
+
+##
+## 🤝Happy coding!💻
