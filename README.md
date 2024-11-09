@@ -16,9 +16,9 @@ A sleek and responsive Weather App built using HTML, CSS, and JavaScript that fe
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your_username/weather-app.git
+   git clone https://github.com/SachindaBandara/Build-A-Weather-App-in-HTML-CSS-JavaScript.git
 
-2. **Open index.html in your web browser:** Simply open the index.html file to view the app in action.
+2. **Open Weather.html in your web browser:** Simply open the Weather.html file to view the app in action.
 
 ## Usage 🚀
   Enter the name of a city in the search bar and press enter. The app will fetch and display the current weather data for the specified city, including temperature, humidity, wind speed,   and a weather icon.
